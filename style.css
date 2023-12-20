@@ -1,0 +1,241 @@
+body {
+    
+    background-color: blueviolet;
+}
+
+#sponge {
+  width:70px;
+  border-radius: 50px;
+  height: 50px;
+  
+  
+}
+nav {
+  background-color: mediumpurple;
+  border-radius: 20px;
+  inline-size: block;
+  display: flex;
+  position: fixed;
+  width: 1100px;
+  
+  
+}
+
+#btn {
+  text-align: right;
+  float: right;
+  background-color: rebeccapurple ;
+  color: white;
+  width: 80px;
+  border-radius: 20px;
+  margin-left: 700px;
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+  font-style: bold;
+  font-size: 40px;
+  
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
+
+#sport {
+  width: 400px;
+  border-radius: 20px;
+  height: 300px;
+}
+
+figcaption {
+  color: white;
+}
+
+
+.div-bar {
+  display: grid;
+  grid-template-columns: 500px 500px; 
+  grid-auto-rows: 400px;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  
+  
+  
+  
+  }
+
+.desc {
+  color: white;
+  font-size: 36px;
+}
+
+.milki {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+
+.quiz {
+  text-align: center;
+  display: grid;
+  background-color: purple;
+  height: 50px;
+  
+}
+
+.back {
+  width: 90px;
+  height: 50px;
+  color: white;
+  background-color: orangered;
+  border-radius: 20px;
+  font-size: 16px;
+  
+}
+
+.nav2 {
+  position: fixed;
+  
+  top: 540px;
+}
+
+#home {
+  text-decoration: none;
+  color: white;
+}
+
+.item1 {
+  border-radius: 20px;
+  
+}
+
+#photo {
+  width: 400px;
+  border-radius: 20px;
+  height: 300px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.quest-cont {
+  text-align: center;
+  color: white;
+  font-style: bold;
+}
+
+.quest-cont button {
+  width: 140px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 14px;
+  margin: 16px;
+  
+}
+
+.nav3 {
+  position: absolute;
+  
+  top: 755px;
+}
+
+.nav4 {
+  position: absolute;
+  top: 700px;
+  
+}
+
+.prev/next {
+  display: grid;
+}
+
+.next {
+  width: 90px;
+  
+  height: 50px;
+  border-radius: 16px;
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  float: right;
+  
+}
+
+#wrongcorrect {
+  background-color: white;
+  color: green;
+  height: 30px;
+  font-size: 20px;
+
+}
+
+select {
+  margin-left: 1040px;
+  border-radius: 20px;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+
+option{
+  font-size: 30px;
+}
+@media (max-width: 800px) {
+  .div-bar {
+    display: grid;
+    grid-template-columns: 150px 150px; 
+    grid-auto-rows: 200px;
+    
+    
+  }  
+  #sport {
+    width: 150px;
+    border-radius: 20px;
+    height: 130px;
+  }
+
+  nav {
+    background-color: mediumpurple;
+    width: 360px;
+    height: 60px;
+    
+    
+  }
+
+
+  #btn {
+    
+    background-color: rebeccapurple ;
+    color: white;
+    width: 80px;
+    margin-left: 80px;
+    font-size: 20px;
+  }
+
+  
+  #sponge {
+    width: 60px;
+    border-radius: 50px;
+    height: 50px;
+    
+  }
+  
+  
+  .milki {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+} 
